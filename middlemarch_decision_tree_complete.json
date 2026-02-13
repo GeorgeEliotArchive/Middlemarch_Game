@@ -1,0 +1,1229 @@
+{
+  "game_metadata": {
+    "title": "Middlemarch: The Paths Not Taken",
+    "version": "2.0",
+    "total_decisions": 63,
+    "storylines": 3,
+    "themes": [
+      "The necessity of both desire and respect in marriage",
+      "The value of true friendship (Farebrother, Caleb, Dorothea, Lydgate, Sir James)",
+      "Cascading errors and their consequences",
+      "Redemption through honest work and self-knowledge",
+      "Female friendship and generosity (Dorothea and Rosamond's crucial moment)"
+    ],
+    "educational_notes": "In Exploration Mode, students can reflect on why certain pairings fail or succeed based on Eliot's formula: Desire + Respect + Friendship = Happy Marriage. Missing any element leads to unhappiness."
+  },
+  
+  "decision_points": [
+    {
+      "id": "d01",
+      "chapter": 3,
+      "storyline": "dorothea",
+      "importance": "minor",
+      "character": "Dorothea Brooke",
+      "location": "Tipton",
+      "decision": "Will Dorothea encourage Mr. Casaubon's visits and show eager interest in his scholarly work?",
+      "context": "Dorothea is captivated by Casaubon's learning. She envisions helping with his great intellectual project. Sir James Chettam also shows interest, but she finds him intellectually limited.",
+      "themes": ["Idealism", "Self-deception", "Vocation"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - encourage his visits and conversations",
+          "is_canonical": true,
+          "consequence": "Her fascination grows. She sees herself as a future helpmate to genius.",
+          "leads_to": "d02"
+        },
+        "no": {
+          "text": "No - maintain polite distance",
+          "is_canonical": false,
+          "consequence": "AI generates alternative path where she focuses on her cottage-building plans instead."
+        }
+      }
+    },
+    {
+      "id": "d02",
+      "chapter": 4,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Dorothea Brooke",
+      "location": "Tipton",
+      "decision": "Will Dorothea reject Sir James Chettam's suit?",
+      "context": "Celia reveals that Sir James is courting Dorothea. He's kind, wealthy, and supports her cottage plans. But Dorothea finds him dull. She wants intellectual companionship.",
+      "themes": ["Marriage", "Intellectual vs. practical virtue", "Choice"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - reject Sir James firmly",
+          "is_canonical": true,
+          "consequence": "She makes clear she could never marry him. Sir James is heartbroken but will later marry Celia (good match for both).",
+          "leads_to": "d03"
+        },
+        "no": {
+          "text": "No - consider Sir James seriously",
+          "is_canonical": false,
+          "consequence": "AI generates path where she reconsiders his practical virtues."
+        }
+      }
+    },
+    {
+      "id": "d03",
+      "chapter": 4,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Dorothea Brooke",
+      "location": "Tipton",
+      "decision": "Will Dorothea accept Mr. Casaubon's marriage proposal?",
+      "context": "Casaubon has proposed. Dorothea is joyful - this is her chance to be useful, to hold the lamp to greatness. She doesn't see his pedantry, coldness, or that his 'great work' is delusional. ERROR #1.",
+      "themes": ["Marriage", "Idealism", "Self-deception", "Mistake"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - accept eagerly",
+          "is_canonical": true,
+          "consequence": "She accepts with joy despite age difference and Mr. Brooke's mild concerns. The trap closes.",
+          "leads_to": "d04"
+        },
+        "no": {
+          "text": "No - decline the proposal",
+          "is_canonical": false,
+          "consequence": "AI generates alternative path where she avoids this disastrous marriage."
+        }
+      }
+    },
+    {
+      "id": "d04",
+      "chapter": 20,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Dorothea Brooke",
+      "location": "Rome (Vatican)",
+      "decision": "Will Dorothea suppress her growing disillusionment with Casaubon during the honeymoon?",
+      "context": "In Rome, viewing the reclining Ariadne statue (abandoned by Theseus), Dorothea recognizes her own abandonment. Casaubon is pedantic, cold - his work is futile. She weeps alone. ERROR #2: She doesn't voice her disappointment.",
+      "themes": ["Disillusionment", "Self-knowledge", "Duty vs. truth"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - suppress her feelings and try to be dutiful",
+          "is_canonical": true,
+          "consequence": "She buries her disappointment, trying harder to be helpful. The marriage becomes a prison.",
+          "leads_to": "d05"
+        },
+        "no": {
+          "text": "No - confess her disappointment to Casaubon",
+          "is_canonical": false,
+          "consequence": "AI generates path where honest communication might change their dynamic."
+        }
+      }
+    },
+    {
+      "id": "d05",
+      "chapter": 22,
+      "storyline": "dorothea",
+      "importance": "minor",
+      "character": "Dorothea Brooke",
+      "location": "Rome",
+      "decision": "Will Dorothea confide her marital unhappiness to Will Ladislaw when they meet in Rome?",
+      "context": "Will Ladislaw appears in Rome - youthful, artistic, alive. He sees her unhappiness. She's drawn to his vitality but loyal to Casaubon.",
+      "themes": ["Temptation", "Loyalty", "Youth vs. age"],
+      "canonical_answer": "no",
+      "choices": {
+        "yes": {
+          "text": "Yes - confide in Will about her disappointment",
+          "is_canonical": false,
+          "consequence": "AI generates path where early honesty about her feelings changes their relationship."
+        },
+        "no": {
+          "text": "No - maintain propriety and loyalty",
+          "is_canonical": true,
+          "consequence": "She keeps her unhappiness private, though Will perceives it. Their connection grows silently.",
+          "leads_to": "d06"
+        }
+      }
+    },
+    {
+      "id": "d06",
+      "chapter": 30,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Tertius Lydgate",
+      "location": "Lowick Manor",
+      "decision": "Will Lydgate (attending the dying Casaubon) recognize Dorothea's devotion to an unworthy husband?",
+      "context": "Lydgate sees Dorothea's selfless care for Casaubon. He's moved by her devotion to a man who doesn't deserve it. This plants the seed of his admiration and friendship. HOPE begins for possible Dorothea-Lydgate pairing.",
+      "themes": ["Recognition", "Devotion", "Friendship begins"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - he sees and admires her devotion",
+          "is_canonical": true,
+          "consequence": "Lydgate begins to respect and care for Dorothea deeply. Their friendship bond begins.",
+          "leads_to": "d07"
+        },
+        "no": {
+          "text": "No - he remains professionally distant",
+          "is_canonical": false,
+          "consequence": "AI generates path where their friendship never develops."
+        }
+      }
+    },
+    {
+      "id": "d07",
+      "chapter": 42,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Dorothea Brooke",
+      "location": "Lowick Manor",
+      "decision": "Will Dorothea remain unconscious of her growing attraction to Will Ladislaw?",
+      "context": "Will visits more frequently. Dorothea feels alive in his presence. Casaubon grows jealous and suspicious. ERROR #3: Dorothea hasn't admitted to herself what she feels. Even Casaubon sees it before she does.",
+      "themes": ["Self-knowledge", "Desire", "Unconscious feeling"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - remain unconscious of her true feelings",
+          "is_canonical": true,
+          "consequence": "She enjoys Will's company as 'innocent friendship' while Casaubon seethes with suspicion.",
+          "leads_to": "d08"
+        },
+        "no": {
+          "text": "No - acknowledge the attraction",
+          "is_canonical": false,
+          "consequence": "AI generates path where conscious recognition changes her choices."
+        }
+      }
+    },
+    {
+      "id": "d08",
+      "chapter": 48,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Dorothea Brooke",
+      "location": "Lowick Manor (garden)",
+      "decision": "Will Dorothea go to the garden to consider Casaubon's request that she promise to complete his work after his death?",
+      "context": "Casaubon asks her to promise she'll carry out his wishes - complete the Key to All Mythologies. She hesitates, needs time to think. She WOULD have promised (ERROR #4 narrowly avoided).",
+      "themes": ["Duty", "Self-sacrifice", "The promise not made"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - go to the garden to think",
+          "is_canonical": true,
+          "consequence": "She wrestles with duty vs. self-preservation. She finds Casaubon unconscious in the garden.",
+          "leads_to": "d09"
+        },
+        "no": {
+          "text": "No - promise immediately without hesitation",
+          "is_canonical": false,
+          "consequence": "AI generates path where she promises instantly and ruins her future."
+        }
+      }
+    },
+    {
+      "id": "d09",
+      "chapter": 48,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Tertius Lydgate",
+      "location": "Lowick Manor (bedroom)",
+      "decision": "Will Lydgate prevent Dorothea from seeing Casaubon to give her answer about the promise?",
+      "context": "Casaubon is dying in bed. Dorothea has decided to promise YES. Lydgate keeps her from entering the room. Is this deliberate? Does he know what promise she wants to make? He SAVES HER LIFE by this obstruction. CRUCIAL friendship moment.",
+      "themes": ["Friendship", "Salvation", "Intervention", "Dorothea-Lydgate bond deepens"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - keep her from the room until Casaubon dies",
+          "is_canonical": true,
+          "consequence": "Lydgate (deliberately?) prevents her from promising away her life. Casaubon dies before she can answer. She is saved. Their friendship deepens profoundly.",
+          "leads_to": "d10"
+        },
+        "no": {
+          "text": "No - let her enter to make the promise",
+          "is_canonical": false,
+          "consequence": "AI generates path where she promises and is trapped forever in Casaubon's dead wishes."
+        }
+      }
+    },
+    {
+      "id": "d10",
+      "chapter": 50,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Dorothea Brooke",
+      "location": "Freshitt Hall",
+      "decision": "Will the discovery of Casaubon's codicil (forbidding her from marrying Will or losing her inheritance) make Dorothea realize her own feelings?",
+      "context": "The codicil reveals Casaubon suspected her attraction to Will BEFORE she recognized it herself. His spite and smallness are exposed. But does this change how she feels about Will?",
+      "themes": ["Control beyond death", "Self-knowledge", "Spite"],
+      "canonical_answer": "no",
+      "choices": {
+        "yes": {
+          "text": "Yes - the codicil clarifies her feelings",
+          "is_canonical": false,
+          "consequence": "AI generates path where she immediately recognizes her love for Will."
+        },
+        "no": {
+          "text": "No - remain conflicted and bound by propriety",
+          "is_canonical": true,
+          "consequence": "She's indignant at Casaubon's suspicion but the codicil creates an impossible situation. She still doesn't fully acknowledge her love.",
+          "leads_to": "d11"
+        }
+      }
+    },
+    {
+      "id": "d11",
+      "chapter": 54,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Dorothea Brooke",
+      "location": "Lowick Manor",
+      "decision": "Will Dorothea remain silent when Will Ladislaw confesses his love but says poverty prevents marriage?",
+      "context": "Will confesses he's always loved her but his poverty and the codicil make marriage impossible. Dorothea is torn between joy and duty. ERROR #5: She doesn't reveal her own feelings.",
+      "themes": ["Love", "Pride", "Restraint", "Opportunity lost"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - remain silent about her own feelings",
+          "is_canonical": true,
+          "consequence": "Propriety and the codicil silence her. The painful moment passes without resolution.",
+          "leads_to": "d12"
+        },
+        "no": {
+          "text": "No - confess her love in return",
+          "is_canonical": false,
+          "consequence": "AI generates path where early confession changes their trajectory."
+        }
+      }
+    },
+    {
+      "id": "d12",
+      "chapter": 76,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Tertius Lydgate",
+      "location": "Lowick Manor",
+      "decision": "Will Lydgate confide in Dorothea about his failing marriage and financial troubles?",
+      "context": "Lydgate, normally proud and closed, opens up to Dorothea about his marital difficulties. This is rare vulnerability. She's the ONLY ONE who understands him. Their friendship deepens. HOPE for Dorothea-Lydgate pairing intensifies.",
+      "themes": ["Friendship", "Vulnerability", "Understanding", "The pairing readers want"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - confide in Dorothea",
+          "is_canonical": true,
+          "consequence": "He trusts her with his pain. She respects and cares for him deeply. Readers wonder: why not marry?",
+          "leads_to": "d13"
+        },
+        "no": {
+          "text": "No - maintain proud silence",
+          "is_canonical": false,
+          "consequence": "AI generates path where he suffers alone without this friendship."
+        }
+      }
+    },
+    {
+      "id": "d13",
+      "chapter": 77,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Tertius Lydgate",
+      "location": "Middlemarch",
+      "decision": "After Casaubon's death and before leaving Middlemarch in disgrace, will Lydgate's deep admiration for Dorothea prompt him to pursue her love?",
+      "context": "Lydgate admires Dorothea profoundly. She's intelligent, idealistic, wealthy (could fund his research), believes in him. She's free now. He's trapped in a bad marriage. Readers WANT this pairing. But Eliot says: NO. Why? Because DESIRE is missing. He respects her but isn't attracted. She was never his type. Rosamond was.",
+      "themes": ["The pairing that could save them both", "Desire vs. Respect", "Marriage needs both", "HOPE dies"],
+      "canonical_answer": "no",
+      "choices": {
+        "yes": {
+          "text": "Yes - pursue Dorothea romantically",
+          "is_canonical": false,
+          "consequence": "AI generates path: They marry. She keeps inheritance, funds his research. They stay in Middlemarch, make it better. Intellectual partnership. But is it happy without desire?"
+        },
+        "no": {
+          "text": "No - remain friends only",
+          "is_canonical": true,
+          "consequence": "Lydgate values friendship but feels no romantic desire. Dorothea is not his type. Friendship + Respect - Desire = Not enough for marriage. This path closes.",
+          "leads_to": "d14"
+        }
+      }
+    },
+    {
+      "id": "d14",
+      "chapter": 80,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Dorothea Brooke",
+      "location": "Lowick Manor (garden)",
+      "decision": "After witnessing Will with Rosamond (appearing intimate), will Dorothea confront her jealousy and despair in the garden?",
+      "context": "Dorothea sees Will and Rosamond together, apparently intimate. She's devastated. Dark night of the soul. She faces her love and pain. This is her crisis moment.",
+      "themes": ["Jealousy", "Self-knowledge", "Crisis", "Dark night"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - spend the night wrestling with despair",
+          "is_canonical": true,
+          "consequence": "She faces her feelings fully for the first time. Pain forces self-knowledge. She emerges resolved.",
+          "leads_to": "d15"
+        },
+        "no": {
+          "text": "No - immediately dismiss Will from her thoughts",
+          "is_canonical": false,
+          "consequence": "AI generates path where she hardens her heart without self-examination."
+        }
+      }
+    },
+    {
+      "id": "d15",
+      "chapter": 81,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Dorothea Brooke",
+      "location": "Lydgate residence",
+      "decision": "Will Dorothea go to Rosamond to defend Lydgate's honor after the Bulstrode scandal?",
+      "context": "Lydgate is disgraced by association with Bulstrode. Dorothea believes in his integrity. She goes to Rosamond out of friendship to Lydgate - to say 'I believe him even if no one else does.' Also to warn R about the Will flirtation (though D may not fully recognize her own jealousy as motive).",
+      "themes": ["Friendship", "Loyalty", "Female friendship begins", "Generosity"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - go to Rosamond",
+          "is_canonical": true,
+          "consequence": "Dorothea defends Lydgate to Rosamond. She wants R to know she believes in L's integrity. This act of friendship saves Lydgate's marriage and self-respect.",
+          "leads_to": "d16"
+        },
+        "no": {
+          "text": "No - stay away, nursing her own wounds",
+          "is_canonical": false,
+          "consequence": "AI generates path where she abandons Lydgate to disgrace."
+        }
+      }
+    },
+    {
+      "id": "d16",
+      "chapter": 81,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Rosamond Lydgate",
+      "location": "Lydgate residence",
+      "decision": "Will Rosamond tell Dorothea the truth: that Will loves Dorothea, not herself?",
+      "context": "ROSAMOND'S GOOD MOMENT. In an act of selfless female friendship, Rosamond tells Dorothea the truth about Will's feelings. She shows no shame or anger, only respect and friendship. This generosity is crucial - Dorothea would NOT have allowed herself to fall for Will without this reassurance. FEMALE FRIENDSHIP TRIUMPHANT.",
+      "themes": ["Female friendship", "Generosity", "Truth-telling", "Rosamond's redemption moment", "Respect"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - tell Dorothea the truth about Will's love",
+          "is_canonical": true,
+          "consequence": "Rosamond is selfless and generous. She gives Dorothea the truth she needs. True female friendship. This moment may also help R appreciate Lydgate more and stick with her marriage - she learns to respect him through D's high opinion.",
+          "leads_to": "d17"
+        },
+        "no": {
+          "text": "No - remain silent or lie",
+          "is_canonical": false,
+          "consequence": "AI generates path where Rosamond's selfishness prevents Dorothea's happiness."
+        }
+      }
+    },
+    {
+      "id": "d17",
+      "chapter": 83,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Dorothea Brooke",
+      "location": "Lowick Manor",
+      "decision": "Will Dorothea agree to see Will Ladislaw despite propriety and the painful situation?",
+      "context": "Miss Noble brings word that Will fears he's offended Dorothea. Now that Rosamond has clarified everything, this is the decisive moment. Will she follow her heart?",
+      "themes": ["Choice", "Love", "Freedom", "REDEMPTION"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - agree to see him",
+          "is_canonical": true,
+          "consequence": "She chooses love over wealth. They declare their feelings and marry. She loses Casaubon's fortune but gains purpose, desire, and partnership. REDEMPTION through choosing love.",
+          "leads_to": "finale-dorothea"
+        },
+        "no": {
+          "text": "No - refuse to see him",
+          "is_canonical": false,
+          "consequence": "AI generates path where duty wins over love."
+        }
+      }
+    },
+    {
+      "id": "l01",
+      "chapter": 15,
+      "storyline": "lydgate",
+      "importance": "major",
+      "character": "Tertius Lydgate",
+      "location": "Middlemarch",
+      "decision": "Will Lydgate pursue his ambitious medical reforms in provincial Middlemarch?",
+      "context": "Lydgate arrives with grand ambitions: advance medical science, reform hospitals, make discoveries. He's brilliant but an outsider. The town is conservative. His past involves a tragic romance with an actress. ERROR #1: Too aggressive with reforms.",
+      "themes": ["Ambition", "Reform vs. tradition", "Outsider status", "HOPE"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - pursue reforms vigorously",
+          "is_canonical": true,
+          "consequence": "He pushes his reforms confidently, making enemies among local medical men. His ambition blinds him to political realities.",
+          "leads_to": "l02"
+        },
+        "no": {
+          "text": "No - compromise with local doctors",
+          "is_canonical": false,
+          "consequence": "AI generates path where early compromise might preserve his position."
+        }
+      }
+    },
+    {
+      "id": "l02",
+      "chapter": 27,
+      "storyline": "lydgate",
+      "importance": "major",
+      "character": "Tertius Lydgate",
+      "location": "Vincy residence",
+      "decision": "When Rosamond cries and manipulates his sympathy, will Lydgate comfort her?",
+      "context": "Lydgate has NO intention of proposing. Rosamond orchestrates a moment alone, begins crying. His chivalry and desire are aroused. ERROR #2: His actions betray his judgment. Eliot's gorgeous rendering of self-entrapment.",
+      "themes": ["Manipulation", "Desire vs. judgment", "Self-deception", "The trap"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - comfort her",
+          "is_canonical": true,
+          "consequence": "He comforts her and finds himself suddenly, impulsively engaged. He leaves an engaged man, having betrayed his own intentions. The trap closes.",
+          "leads_to": "l03"
+        },
+        "no": {
+          "text": "No - resist and leave quickly",
+          "is_canonical": false,
+          "consequence": "AI generates path where he escapes the engagement trap."
+        }
+      }
+    },
+    {
+      "id": "l03",
+      "chapter": 31,
+      "storyline": "lydgate",
+      "importance": "minor",
+      "character": "Tertius Lydgate",
+      "location": "Middlemarch",
+      "decision": "Will Lydgate proceed with marrying Rosamond despite growing awareness of her expensive tastes?",
+      "context": "Engaged now, Lydgate realizes Rosamond expects a wealthy lifestyle. He has medical debts and research ambitions. But honor binds him. ERROR #3: Proceeding despite warning signs.",
+      "themes": ["Honor", "Financial imprudence", "Commitment"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - proceed with the marriage",
+          "is_canonical": true,
+          "consequence": "Honor demands it. He marries her, hoping to manage somehow. Debt begins.",
+          "leads_to": "l04"
+        },
+        "no": {
+          "text": "No - postpone or break the engagement",
+          "is_canonical": false,
+          "consequence": "AI generates path where he breaks free before marriage."
+        }
+      }
+    },
+    {
+      "id": "l04",
+      "chapter": 36,
+      "storyline": "lydgate",
+      "importance": "minor",
+      "character": "Tertius Lydgate",
+      "location": "Middlemarch",
+      "decision": "Will Lydgate accept deeper patronage from the morally questionable Bulstrode?",
+      "context": "Other doctors resent Lydgate's reforms. Bulstrode offers strong support for the hospital. But there are whispers about Bulstrode's past. ERROR #4: Accepting tainted patronage.",
+      "themes": ["Patronage", "Moral compromise", "Ambition"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - accept Bulstrode's patronage",
+          "is_canonical": true,
+          "consequence": "His hospital work depends on Bulstrode. He's now tied to a questionable benefactor.",
+          "leads_to": "l05"
+        },
+        "no": {
+          "text": "No - refuse and seek other support",
+          "is_canonical": false,
+          "consequence": "AI generates path where he maintains independence."
+        }
+      }
+    },
+    {
+      "id": "l05",
+      "chapter": 45,
+      "storyline": "lydgate",
+      "importance": "minor",
+      "character": "Tertius Lydgate",
+      "location": "Middlemarch",
+      "decision": "Will Lydgate continue buying expensive furnishings to please Rosamond despite his debts?",
+      "context": "Rosamond has expensive tastes. Lydgate is going into debt but doesn't want to disappoint her. ERROR #5: Hiding financial reality.",
+      "themes": ["Debt", "Pleasing vs. honesty", "Pride"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - continue the expenses",
+          "is_canonical": true,
+          "consequence": "Debt grows. He hides the truth from Rosamond, making everything worse.",
+          "leads_to": "l06"
+        },
+        "no": {
+          "text": "No - be honest about their finances",
+          "is_canonical": false,
+          "consequence": "AI generates path where early honesty might save them."
+        }
+      }
+    },
+    {
+      "id": "l06",
+      "chapter": 58,
+      "storyline": "lydgate",
+      "importance": "major",
+      "character": "Tertius Lydgate",
+      "location": "Lydgate residence",
+      "decision": "Will Lydgate finally tell Rosamond about their desperate financial situation?",
+      "context": "They're deeply in debt. Rosamond has been buying expensive furnishings, unaware. ERROR #6: He waited too long to tell her. Now it's a crisis.",
+      "themes": ["Honesty", "Crisis", "Communication failure"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - finally reveal the debt",
+          "is_canonical": true,
+          "consequence": "Rosamond is shocked and angry. She had no idea. Communication breakdown complete.",
+          "leads_to": "l07"
+        },
+        "no": {
+          "text": "No - continue hiding the truth",
+          "is_canonical": false,
+          "consequence": "AI generates path where he never tells her until forced by creditors."
+        }
+      }
+    },
+    {
+      "id": "l07",
+      "chapter": 58,
+      "storyline": "lydgate",
+      "importance": "major",
+      "character": "Tertius Lydgate",
+      "location": "Lydgate residence",
+      "decision": "When Rosamond suggests leaving Middlemarch to escape debts, will Lydgate refuse?",
+      "context": "Rosamond wants to flee. Lydgate insists on staying to face obligations. ERROR #7: But this honor traps him further in Middlemarch.",
+      "themes": ["Honor", "Escape vs. responsibility"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - insist on staying and facing obligations",
+          "is_canonical": true,
+          "consequence": "He refuses to run away. This honor is admirable but keeps him in the trap.",
+          "leads_to": "l08"
+        },
+        "no": {
+          "text": "No - agree to leave",
+          "is_canonical": false,
+          "consequence": "AI generates path where they start fresh elsewhere."
+        }
+      }
+    },
+    {
+      "id": "l08",
+      "chapter": 64,
+      "storyline": "lydgate",
+      "importance": "major",
+      "character": "Tertius Lydgate",
+      "location": "Lydgate residence",
+      "decision": "Will Lydgate allow Rosamond to ask her wealthy uncle Sir Godwin for financial help?",
+      "context": "Rosamond wants to write to her rich uncle for money. Lydgate's pride forbids it. ERROR #8: Won't let her ask for help when it might save them.",
+      "themes": ["Pride", "Help refused", "Missed opportunity"],
+      "canonical_answer": "no",
+      "choices": {
+        "yes": {
+          "text": "Yes - allow her to ask her uncle",
+          "is_canonical": false,
+          "consequence": "AI generates path where uncle's help might save them from Bulstrode's tainted money."
+        },
+        "no": {
+          "text": "No - forbid her to ask",
+          "is_canonical": true,
+          "consequence": "His pride refuses charity. Rosamond does it anyway behind his back - and fails. Humiliation complete.",
+          "leads_to": "l09"
+        }
+      }
+    },
+    {
+      "id": "l09",
+      "chapter": 58,
+      "storyline": "lydgate",
+      "importance": "major",
+      "character": "Rosamond Lydgate",
+      "location": "Middlemarch countryside",
+      "decision": "Will Rosamond go horseback riding despite Lydgate forbidding it while pregnant?",
+      "context": "Lydgate forbids riding while she's pregnant. Rosamond is miserable, feeling trapped, wants to spite him. DARK DECISION: She rides. Loses the baby. Intentional abortion? Eliot leaves it ambiguous.",
+      "themes": ["Rebellion", "Loss", "Spite", "Ambiguous intent"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - ride anyway",
+          "is_canonical": true,
+          "consequence": "She rides and miscarries. Was it intentional? We don't know. The baby is lost. Their marriage darkens further.",
+          "leads_to": "l10"
+        },
+        "no": {
+          "text": "No - obey and keep the pregnancy",
+          "is_canonical": false,
+          "consequence": "AI generates path where the baby survives and might change their marriage."
+        }
+      }
+    },
+    {
+      "id": "l10",
+      "chapter": 63,
+      "storyline": "lydgate",
+      "importance": "minor",
+      "character": "Tertius Lydgate",
+      "location": "Christmas dinner",
+      "decision": "Will Lydgate accept Farebrother's offer of help with his troubles?",
+      "context": "Farebrother (morally good friend) perceives Lydgate's distress and offers help. Lydgate's pride refuses. ERROR #9: Rejecting true friendship. Moving away from Farebrother is always a mistake.",
+      "themes": ["Pride", "Friendship rejected", "Isolation"],
+      "canonical_answer": "no",
+      "choices": {
+        "yes": {
+          "text": "Yes - accept Farebrother's help",
+          "is_canonical": false,
+          "consequence": "AI generates path where friendship saves him."
+        },
+        "no": {
+          "text": "No - reject help proudly",
+          "is_canonical": true,
+          "consequence": "Pride prevents him from accepting friendship. His isolation deepens. Farebrother is the best character - rejecting him is a mistake.",
+          "leads_to": "l11"
+        }
+      }
+    },
+    {
+      "id": "l11",
+      "chapter": 69,
+      "storyline": "lydgate",
+      "importance": "minor",
+      "character": "Rosamond Lydgate",
+      "location": "Lydgate residence",
+      "decision": "Will Rosamond temporarily leave Lydgate to stay with her parents due to their strained marriage?",
+      "context": "Their marriage is miserable. Rosamond leaves for her parents' house. Separation begins.",
+      "themes": ["Marriage breakdown", "Separation"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - leave for her parents",
+          "is_canonical": true,
+          "consequence": "She leaves. They're living separately now. Marriage nearly dissolved.",
+          "leads_to": "l12"
+        },
+        "no": {
+          "text": "No - stay and work on the marriage",
+          "is_canonical": false,
+          "consequence": "AI generates path where they try to reconcile earlier."
+        }
+      }
+    },
+    {
+      "id": "l12",
+      "chapter": 70,
+      "storyline": "lydgate",
+      "importance": "major",
+      "character": "Tertius Lydgate",
+      "location": "Stone Court",
+      "decision": "Will Lydgate accept Bulstrode's loan of £1000?",
+      "context": "Lydgate is desperate. Bulstrode offers £1000 RIGHT AFTER Raffles dies upstairs (with questionable care from Bulstrode). ERROR #10: The fatal compromise. Accepting tainted money at the worst moment.",
+      "themes": ["Desperation", "Moral compromise", "Complicity", "The fatal error"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - accept the loan",
+          "is_canonical": true,
+          "consequence": "He accepts out of desperation. The timing makes it look like payment for silence about Raffles' death. His reputation will be destroyed.",
+          "leads_to": "l13"
+        },
+        "no": {
+          "text": "No - refuse the loan",
+          "is_canonical": false,
+          "consequence": "AI generates path where he preserves integrity despite hardship."
+        }
+      }
+    },
+    {
+      "id": "l13",
+      "chapter": 71,
+      "storyline": "lydgate",
+      "importance": "major",
+      "character": "Tertius Lydgate",
+      "location": "Middlemarch",
+      "decision": "When the Bulstrode-Raffles scandal breaks, will Lydgate stay to defend himself?",
+      "context": "Raffles' death and Bulstrode's crimes are exposed. Lydgate, who took the loan and attended Raffles, is suspected of complicity. Scandal and disgrace. Rosamond wants to flee immediately.",
+      "themes": ["Scandal", "Reputation destroyed", "Honor vs. pragmatism"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - stay and try to defend his integrity",
+          "is_canonical": true,
+          "consequence": "He tries to defend himself but the scandal sticks. His medical reputation in Middlemarch is ruined.",
+          "leads_to": "l14"
+        },
+        "no": {
+          "text": "No - leave immediately",
+          "is_canonical": false,
+          "consequence": "AI generates path where they flee before the scandal fully breaks."
+        }
+      }
+    },
+    {
+      "id": "l14",
+      "chapter": 75,
+      "storyline": "lydgate",
+      "importance": "major",
+      "character": "Rosamond Lydgate",
+      "location": "Lydgate residence",
+      "decision": "Will Rosamond continue encouraging Will Ladislaw's visits and flirtations?",
+      "context": "Rosamond is unhappy in her marriage. Will Ladislaw pays attention to her. She encourages his visits and flirts. This is disrespectful to Lydgate and will hurt Dorothea (who witnesses it).",
+      "themes": ["Flirtation", "Disrespect", "Unhappiness"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - continue the flirtation",
+          "is_canonical": true,
+          "consequence": "She flirts with Will, disrespecting Lydgate. Dorothea sees this and is devastated. The flirtation poisons multiple relationships.",
+          "leads_to": "l15"
+        },
+        "no": {
+          "text": "No - maintain proper boundaries",
+          "is_canonical": false,
+          "consequence": "AI generates path where she focuses on her marriage instead."
+        }
+      }
+    },
+    {
+      "id": "l15",
+      "chapter": 81,
+      "storyline": "lydgate",
+      "importance": "major",
+      "character": "Rosamond Lydgate",
+      "location": "Lydgate residence",
+      "decision": "After Dorothea comes to defend Lydgate, will Rosamond respect her enough to stick with her marriage?",
+      "context": "Dorothea's visit and high opinion of Lydgate shows Rosamond what true respect looks like. Dorothea believes in Lydgate's integrity. This might help R appreciate her husband more. Also, social status matters - D is gentlefolk.",
+      "themes": ["Respect", "Marriage preserved", "Social status", "Learning"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - learn to respect Lydgate more",
+          "is_canonical": true,
+          "consequence": "Rosamond learns from Dorothea's respect for Lydgate. She sticks with the marriage (though never truly happy). They stay together.",
+          "leads_to": "finale-lydgate"
+        },
+        "no": {
+          "text": "No - continue resenting the marriage",
+          "is_canonical": false,
+          "consequence": "AI generates path where the marriage dissolves completely."
+        }
+      }
+    },
+    {
+      "id": "f01",
+      "chapter": 12,
+      "storyline": "fred",
+      "importance": "major",
+      "character": "Fred Vincy",
+      "location": "Stone Court",
+      "decision": "Will Fred continue visiting Uncle Featherstone and cultivating expectations of inheriting?",
+      "context": "Fred visits wealthy, dying Uncle Featherstone regularly. Featherstone torments relatives with will hints. Fred counts on this inheritance to solve his problems. ERROR #1: Expecting unearned money. Mary Garth sees this as moral weakness.",
+      "themes": ["Expectation", "Idleness", "False hopes"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - continue expecting the inheritance",
+          "is_canonical": true,
+          "consequence": "He keeps visiting, expecting to inherit. This false hope prevents him from finding honest work.",
+          "leads_to": "f02"
+        },
+        "no": {
+          "text": "No - reject expectations and find work",
+          "is_canonical": false,
+          "consequence": "AI generates path where he rejects false hopes early and seeks honest employment."
+        }
+      }
+    },
+    {
+      "id": "f02",
+      "chapter": 14,
+      "storyline": "fred",
+      "importance": "minor",
+      "character": "Fred Vincy",
+      "location": "Stone Court",
+      "decision": "Will Fred confess his love to Mary Garth?",
+      "context": "Fred loves Mary. She's practical, smart, and won't accept him unless he proves himself worthy. He confesses his feelings.",
+      "themes": ["Love", "Worthiness"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - confess his love",
+          "is_canonical": true,
+          "consequence": "He declares his love. Mary makes clear she won't marry him until he proves worthy through honest work.",
+          "leads_to": "f03"
+        },
+        "no": {
+          "text": "No - keep his feelings hidden",
+          "is_canonical": false,
+          "consequence": "AI generates path where he doesn't declare himself."
+        }
+      }
+    },
+    {
+      "id": "f03",
+      "chapter": 23,
+      "storyline": "fred",
+      "importance": "major",
+      "character": "Fred Vincy",
+      "location": "Middlemarch",
+      "decision": "Will Fred buy a horse expecting to profit from reselling it?",
+      "context": "Fred, counting on Featherstone inheritance, buys a horse from dealer Bambridge. He expects to profit. ERROR #2: Gambling on quick money.",
+      "themes": ["Gambling", "False expectations", "Foolishness"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - buy the horse",
+          "is_canonical": true,
+          "consequence": "He buys the horse. It goes lame. He loses money and faces ruin. His foolishness has real consequences.",
+          "leads_to": "f04"
+        },
+        "no": {
+          "text": "No - resist the gamble",
+          "is_canonical": false,
+          "consequence": "AI generates path where he avoids this particular mistake."
+        }
+      }
+    },
+    {
+      "id": "f04",
+      "chapter": 23,
+      "storyline": "fred",
+      "importance": "major",
+      "character": "Fred Vincy",
+      "location": "Middlemarch",
+      "decision": "Will Fred ask kind Caleb Garth to co-sign his debt to Bambridge?",
+      "context": "Horse went lame. Fred owes money. He needs someone to co-sign. He thinks of Caleb Garth - Mary's father, kind, honest, lives frugally to educate his sons. ERROR #3: Taking advantage of Caleb's kindness.",
+      "themes": ["Taking advantage", "Debt", "Character test"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - ask Caleb to co-sign",
+          "is_canonical": true,
+          "consequence": "Caleb agrees despite limited means. Fred has taken advantage of a good man's kindness. This will have devastating consequences.",
+          "leads_to": "f05"
+        },
+        "no": {
+          "text": "No - ask his own family or face consequences alone",
+          "is_canonical": false,
+          "consequence": "AI generates path where he doesn't burden the Garths."
+        }
+      }
+    },
+    {
+      "id": "f05",
+      "chapter": 24,
+      "storyline": "fred",
+      "importance": "major",
+      "character": "Fred Vincy",
+      "location": "Garth house",
+      "decision": "Will Fred confess to Mrs. Garth that he cannot repay the debt Caleb co-signed?",
+      "context": "Fred can't repay. Caleb's signature means Garths lose £92 - their savings for son Alfred's apprenticeship. Mrs. Garth is the practical partner who scrimps and saves. 1830s England - girls not sent to school, though Mary is smartest. Fred must face her. ERROR #4: The consequence of his foolishness.",
+      "themes": ["Shame", "Consequences", "Responsibility", "Class and education"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - confess honestly",
+          "is_canonical": true,
+          "consequence": "Mrs. Garth is devastated. Alfred's education is lost because of Fred's foolishness. This is Fred's turning point - facing real harm he's caused.",
+          "leads_to": "f06"
+        },
+        "no": {
+          "text": "No - avoid the Garths and try to raise money elsewhere",
+          "is_canonical": false,
+          "consequence": "AI generates path where he doesn't take responsibility."
+        }
+      }
+    },
+    {
+      "id": "f06",
+      "chapter": 25,
+      "storyline": "fred",
+      "importance": "major",
+      "character": "Fred Vincy",
+      "location": "Stone Court",
+      "decision": "Will Fred accept Mary's anger without making excuses?",
+      "context": "Mary confronts Fred about the debt. Her family suffers because of his irresponsibility. She won't accept him unless he proves worthy. Will he accept this shame or make excuses?",
+      "themes": ["Accountability", "Love", "Character growth"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - accept her anger and his shame",
+          "is_canonical": true,
+          "consequence": "He accepts responsibility without excuses. This is the beginning of his character growth. Mary sees this.",
+          "leads_to": "f07"
+        },
+        "no": {
+          "text": "No - make excuses about bad luck",
+          "is_canonical": false,
+          "consequence": "AI generates path where he fails this character test."
+        }
+      }
+    },
+    {
+      "id": "f07",
+      "chapter": 33,
+      "storyline": "fred",
+      "importance": "major",
+      "character": "Fred Vincy",
+      "location": "Stone Court",
+      "decision": "When Featherstone's will reveals Fred is disinherited (Joshua Rigg gets everything), will Fred accept this without contesting?",
+      "context": "Featherstone dies. The will is read. Fred gets NOTHING. Joshua Rigg (illegitimate son) inherits everything. Fred's expectations are crushed. Will he accept this or fight?",
+      "themes": ["Expectations destroyed", "Acceptance", "Character"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - accept the disinheritance",
+          "is_canonical": true,
+          "consequence": "He accepts it with disappointment but no protest. His false hopes are finally destroyed. This forces him to grow.",
+          "leads_to": "f08"
+        },
+        "no": {
+          "text": "No - contest the will",
+          "is_canonical": false,
+          "consequence": "AI generates path where he fights the will and delays his growth."
+        }
+      }
+    },
+    {
+      "id": "f08",
+      "chapter": 40,
+      "storyline": "fred",
+      "importance": "major",
+      "character": "Fred Vincy",
+      "location": "Garth house",
+      "decision": "Will Fred accept Caleb Garth's offer to learn land management?",
+      "context": "Despite Fred's debt betrayal, Caleb sees potential. He offers to teach Fred land management - honest, practical work. This means giving up gentleman's life. Mary has quit teaching to help her mother. REDEMPTION begins.",
+      "themes": ["Redemption", "Honest work", "Vocation", "Class expectations"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - accept gratefully and learn from Caleb",
+          "is_canonical": true,
+          "consequence": "He accepts with gratitude. Begins learning honest work from Caleb. This is his path to redemption and Mary's heart.",
+          "leads_to": "f09"
+        },
+        "no": {
+          "text": "No - decline as beneath his station",
+          "is_canonical": false,
+          "consequence": "AI generates path where pride prevents his redemption."
+        }
+      }
+    },
+    {
+      "id": "f09",
+      "chapter": 40,
+      "storyline": "fred",
+      "importance": "minor",
+      "character": "Mary Garth",
+      "location": "Garth house",
+      "decision": "Will Mary give up her teaching job to help her mother at home?",
+      "context": "Caleb gets job offers managing estates. Mary decides to quit teaching and help her mother. She's practical and dutiful. This shows her character.",
+      "themes": ["Duty", "Family", "Women's roles", "Practicality"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - give up teaching to help mother",
+          "is_canonical": true,
+          "consequence": "She quits teaching to help at home. Dutiful and practical. She and Fred are both learning their vocations.",
+          "leads_to": "f10"
+        },
+        "no": {
+          "text": "No - continue teaching",
+          "is_canonical": false,
+          "consequence": "AI generates path where she prioritizes her work over family."
+        }
+      }
+    },
+    {
+      "id": "f10",
+      "chapter": 52,
+      "storyline": "fred",
+      "importance": "major",
+      "character": "Fred Vincy",
+      "location": "Lowick parsonage",
+      "decision": "Will Fred reject the idea of becoming a clergyman?",
+      "context": "Fred's family expects him to be a clergyman (respectable for gentleman's son). But Fred has been learning from Caleb and is good at practical work. Farebrother asks Mary's opinion. Mary says she'd HATE to see Fred as clergyman - he'd be terrible at it. Fred must choose. CRUCIAL VOCATION DECISION.",
+      "themes": ["Vocation", "Self-knowledge", "Social expectations", "Honesty"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - reject the clergy",
+          "is_canonical": true,
+          "consequence": "He chooses honest work over social expectations. He's not book-smart (Mary becomes the writer!) but he has sense and a good heart. He'd be terrible as clergyman. Right choice.",
+          "leads_to": "f11"
+        },
+        "no": {
+          "text": "No - become a clergyman to satisfy family",
+          "is_canonical": false,
+          "consequence": "AI generates path where he chooses wrong vocation for wrong reasons."
+        }
+      }
+    },
+    {
+      "id": "f11",
+      "chapter": 56,
+      "storyline": "fred",
+      "importance": "minor",
+      "character": "Fred Vincy",
+      "location": "Middlemarch",
+      "decision": "Will Fred continue working diligently with Caleb Garth to prove himself?",
+      "context": "Fred works hard, learning the land management business. He's proving his character through steady work. Redemption continues.",
+      "themes": ["Work ethic", "Proving worthiness", "Character growth"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - continue working diligently",
+          "is_canonical": true,
+          "consequence": "He works hard and well. Caleb trusts him. Fred is becoming the man Mary deserves.",
+          "leads_to": "f12"
+        },
+        "no": {
+          "text": "No - slack off or return to old habits",
+          "is_canonical": false,
+          "consequence": "AI generates path where he fails to maintain his growth."
+        }
+      }
+    },
+    {
+      "id": "f12",
+      "chapter": 86,
+      "storyline": "fred",
+      "importance": "major",
+      "character": "Fred Vincy",
+      "location": "Middlemarch",
+      "decision": "Will Fred propose to Mary Garth, confident he's earned the right?",
+      "context": "Fred has proven himself through years of honest work with Caleb. He's no longer the idle fool who hurt the Garths. Mary has seen his genuine transformation. He's found his vocation. REDEMPTION COMPLETE. Will he ask?",
+      "themes": ["Love", "Worthiness earned", "Character growth", "Happy ending"],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - propose confidently",
+          "is_canonical": true,
+          "consequence": "He proposes. Mary accepts. They marry and have a happy life. Fred becomes successful land agent. Mary becomes a writer. EARNED HAPPY ENDING. Redemption through work and growth.",
+          "leads_to": "finale-fred"
+        },
+        "no": {
+          "text": "No - doubt his worthiness and wait",
+          "is_canonical": false,
+          "consequence": "AI generates path where self-doubt prevents his happiness."
+        }
+      }
+    }
+  ],
+  
+  "exploration_mode_reflections": {
+    "marriage_formula": {
+      "title": "Eliot's Marriage Equation: What Makes Love Last?",
+      "content": "George Eliot shows us that successful marriage requires THREE elements: Desire + Respect + Friendship. Missing any one leads to unhappiness.",
+      "examples": [
+        {
+          "pairing": "Dorothea + Casaubon",
+          "formula": "Respect (initially) - Desire - Friendship = MISERY",
+          "explanation": "Dorothea respected his scholarship but felt no desire. They had no real friendship. Result: trapped, unhappy, her spirit crushed."
+        },
+        {
+          "pairing": "Lydgate + Rosamond", 
+          "formula": "Desire + Initial attraction - Respect - Friendship = RUIN",
+          "explanation": "Lydgate desired Rosamond's beauty. But they don't respect each other's values or form true friendship. Result: debt, scandal, broken dreams."
+        },
+        {
+          "pairing": "Dorothea + Lydgate (The Pairing Readers Want)",
+          "formula": "Respect + Friendship - Desire = NOT ENOUGH",
+          "explanation": "They have profound mutual respect and deep friendship. They understand each other. She could fund his research. But the sexual desire is missing - she was never his type. Result: they remain friends, marry others."
+        },
+        {
+          "pairing": "Dorothea + Will",
+          "formula": "Desire + Growing Respect + Friendship = HAPPINESS",
+          "explanation": "Will thrills Dorothea in a way Casaubon never did. They develop respect and friendship. She chooses love over money. Result: happy marriage, purpose, children."
+        },
+        {
+          "pairing": "Fred + Mary",
+          "formula": "Desire + Earned Respect + Friendship = HAPPINESS",
+          "explanation": "Fred loves Mary. She won't accept him until he earns her respect through honest work. Once he does, they have all three elements. Result: happy, productive life together."
+        }
+      ]
+    },
+    "friendship_theme": {
+      "title": "True Friendship in Middlemarch",
+      "content": "Eliot shows us what real friendship looks like through several key characters. True friends act selflessly, speak truth, and help even when it's hard.",
+      "examples": [
+        {
+          "character": "Camden Farebrother",
+          "acts": "The morally best character. Offers help to Lydgate even when rejected. Helps Fred find his vocation. Any move away from Farebrother is a mistake."
+        },
+        {
+          "character": "Caleb Garth",
+          "acts": "Co-signs Fred's debt despite being poor. Later offers to teach Fred honest work despite the betrayal. True forgiveness and mentorship."
+        },
+        {
+          "character": "Dorothea",
+          "acts": "Goes to Rosamond to defend Lydgate's honor when everyone else condemns him. 'I believe in him even if no one else does.'"
+        },
+        {
+          "character": "Lydgate",
+          "acts": "Prevents Dorothea from promising away her life to Casaubon. Opens up about his marital troubles only to her. Friendship without romance."
+        },
+        {
+          "character": "Rosamond (her good moment)",
+          "acts": "Tells Dorothea the truth about Will's love. Shows selfless female friendship. This moment redeems her partially and helps her respect Lydgate more."
+        },
+        {
+          "character": "Sir James Chettam",
+          "acts": "Rejected by Dorothea but remains a loyal family friend. Marries Celia (good match). Continues to help and protect Dorothea throughout."
+        }
+      ]
+    },
+    "cascade_of_errors": {
+      "title": "The Psychology of Mistakes: How Good People Ruin Their Lives",
+      "content": "Eliot shows us 'erring human beings' - good people who make cascading mistakes. Each error leads to the next. This is realistic psychology.",
+      "dorothea_path": {
+        "errors": [
+          "ERROR #1: Marries Casaubon (idealism blinds her)",
+          "ERROR #2: Suppresses Rome disillusionment (duty over truth)",
+          "ERROR #3: Doesn't recognize her feelings for Will (self-deception)",
+          "ERROR #4: Almost promises to finish Casaubon's work (saved by Lydgate)",
+          "ERROR #5: Doesn't reveal feelings when Will confesses (propriety)",
+          "REDEMPTION: Chooses Will and love over money/respectability"
+        ],
+        "pattern": "Dorothea's errors come from idealism and self-deception. She learns through pain. Redeemed by finally choosing authentic love."
+      },
+      "lydgate_path": {
+        "errors": [
+          "ERROR #1: Too aggressive with reforms (makes enemies)",
+          "ERROR #2: Comforts crying Rosamond (trapped in engagement)",
+          "ERROR #3: Marries despite financial warnings",
+          "ERROR #4: Accepts Bulstrode's patronage",
+          "ERROR #5: Doesn't tell Rosamond about debts (hides truth too long)",
+          "ERROR #6: Won't let her ask uncle for help (pride)",
+          "ERROR #7: Stays in Middlemarch to face obligations (honor traps him)",
+          "ERROR #8: Rejects Farebrother's help (isolation)",
+          "ERROR #9: Accepts Bulstrode's loan at worst moment (fatal)",
+          "RUIN: Leaves Middlemarch, treats gout, abandons research, dies young"
+        ],
+        "pattern": "Lydgate's errors come from pride, desire, and refusing help. His fall is tragic - talent wasted. Partially saved by Dorothea's friendship."
+      },
+      "fred_path": {
+        "errors": [
+          "ERROR #1: Expects Featherstone inheritance (idleness)",
+          "ERROR #2: Gambles on horse (loses money)",
+          "ERROR #3: Asks Caleb to co-sign (takes advantage of kindness)",
+          "ERROR #4: Can't repay (Garths lose Alfred's education money)",
+          "TURNING POINT: Accepts shame without excuses",
+          "GROWTH: Learns from Caleb, rejects clergy, finds vocation",
+          "REDEMPTION: Earns Mary, happy marriage, successful career"
+        ],
+        "pattern": "Fred's errors come from idleness and false expectations. He learns through causing real harm to people he loves. Redeemed by honest work and accepting guidance."
+      }
+    }
+  },
+  
+  "metadata": {
+    "notes": "This decision tree incorporates scholarly insights from Dr. Beverley Park Rilett about character psychology, Eliot's marriage philosophy, the importance of friendship, Rosamond's redemptive moment, and the realistic portrayal of cascading errors. Each storyline shows good people making mistakes - some learn and are redeemed (Dorothea, Fred), one is ruined despite his talents (Lydgate)."
+  }
+}
