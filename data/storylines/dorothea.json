@@ -1,0 +1,510 @@
+{
+  "title": "Dorothea's Journey",
+  "description": "From idealistic Miss Brooke to her disastrous marriage with Casaubon, through disillusionment and friendship with Lydgate, to choosing love with Will Ladislaw over wealth and respectability.",
+  "theme": "Redemption through love",
+  "decisions": [
+    {
+      "id": "d01",
+      "chapter": 3,
+      "storyline": "dorothea",
+      "importance": "minor",
+      "character": "Dorothea Brooke",
+      "location": "Tipton",
+      "decision": "Will Dorothea encourage Mr. Casaubon's visits and show eager interest in his scholarly work?",
+      "context": "Dorothea is captivated by Casaubon's learning. She envisions helping with his great intellectual project. Sir James Chettam also shows interest, but she finds him intellectually limited.",
+      "themes": [
+        "Idealism",
+        "Self-deception",
+        "Vocation"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - encourage his visits and conversations",
+          "is_canonical": true,
+          "consequence": "Her fascination grows. She sees herself as a future helpmate to genius.",
+          "leads_to": "d02"
+        },
+        "no": {
+          "text": "No - maintain polite distance",
+          "is_canonical": false,
+          "consequence": "AI generates alternative path where she focuses on her cottage-building plans instead."
+        }
+      }
+    },
+    {
+      "id": "d02",
+      "chapter": 4,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Dorothea Brooke",
+      "location": "Tipton",
+      "decision": "Will Dorothea reject Sir James Chettam's suit?",
+      "context": "Celia reveals that Sir James is courting Dorothea. He's kind, wealthy, and supports her cottage plans. But Dorothea finds him dull. She wants intellectual companionship.",
+      "themes": [
+        "Marriage",
+        "Intellectual vs. practical virtue",
+        "Choice"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - reject Sir James firmly",
+          "is_canonical": true,
+          "consequence": "She makes clear she could never marry him. Sir James is heartbroken but will later marry Celia (good match for both).",
+          "leads_to": "d03"
+        },
+        "no": {
+          "text": "No - consider Sir James seriously",
+          "is_canonical": false,
+          "consequence": "AI generates path where she reconsiders his practical virtues."
+        }
+      }
+    },
+    {
+      "id": "d03",
+      "chapter": 4,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Dorothea Brooke",
+      "location": "Tipton",
+      "decision": "Will Dorothea accept Mr. Casaubon's marriage proposal?",
+      "context": "Casaubon has proposed. Dorothea is joyful - this is her chance to be useful, to hold the lamp to greatness. She doesn't see his pedantry, coldness, or that his 'great work' is delusional. ERROR #1.",
+      "themes": [
+        "Marriage",
+        "Idealism",
+        "Self-deception",
+        "Mistake"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - accept eagerly",
+          "is_canonical": true,
+          "consequence": "She accepts with joy despite age difference and Mr. Brooke's mild concerns. The trap closes.",
+          "leads_to": "d04"
+        },
+        "no": {
+          "text": "No - decline the proposal",
+          "is_canonical": false,
+          "consequence": "AI generates alternative path where she avoids this disastrous marriage."
+        }
+      }
+    },
+    {
+      "id": "d04",
+      "chapter": 20,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Dorothea Brooke",
+      "location": "Rome (Vatican)",
+      "decision": "Will Dorothea suppress her growing disillusionment with Casaubon during the honeymoon?",
+      "context": "In Rome, viewing the reclining Ariadne statue (abandoned by Theseus), Dorothea recognizes her own abandonment. Casaubon is pedantic, cold - his work is futile. She weeps alone. ERROR #2: She doesn't voice her disappointment.",
+      "themes": [
+        "Disillusionment",
+        "Self-knowledge",
+        "Duty vs. truth"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - suppress her feelings and try to be dutiful",
+          "is_canonical": true,
+          "consequence": "She buries her disappointment, trying harder to be helpful. The marriage becomes a prison.",
+          "leads_to": "d05"
+        },
+        "no": {
+          "text": "No - confess her disappointment to Casaubon",
+          "is_canonical": false,
+          "consequence": "AI generates path where honest communication might change their dynamic."
+        }
+      }
+    },
+    {
+      "id": "d05",
+      "chapter": 22,
+      "storyline": "dorothea",
+      "importance": "minor",
+      "character": "Dorothea Brooke",
+      "location": "Rome",
+      "decision": "Will Dorothea confide her marital unhappiness to Will Ladislaw when they meet in Rome?",
+      "context": "Will Ladislaw appears in Rome - youthful, artistic, alive. He sees her unhappiness. She's drawn to his vitality but loyal to Casaubon.",
+      "themes": [
+        "Temptation",
+        "Loyalty",
+        "Youth vs. age"
+      ],
+      "canonical_answer": "no",
+      "choices": {
+        "yes": {
+          "text": "Yes - confide in Will about her disappointment",
+          "is_canonical": false,
+          "consequence": "AI generates path where early honesty about her feelings changes their relationship."
+        },
+        "no": {
+          "text": "No - maintain propriety and loyalty",
+          "is_canonical": true,
+          "consequence": "She keeps her unhappiness private, though Will perceives it. Their connection grows silently.",
+          "leads_to": "d06"
+        }
+      }
+    },
+    {
+      "id": "d06",
+      "chapter": 30,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Tertius Lydgate",
+      "location": "Lowick Manor",
+      "decision": "Will Lydgate (attending the dying Casaubon) recognize Dorothea's devotion to an unworthy husband?",
+      "context": "Lydgate sees Dorothea's selfless care for Casaubon. He's moved by her devotion to a man who doesn't deserve it. This plants the seed of his admiration and friendship. HOPE begins for possible Dorothea-Lydgate pairing.",
+      "themes": [
+        "Recognition",
+        "Devotion",
+        "Friendship begins"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - he sees and admires her devotion",
+          "is_canonical": true,
+          "consequence": "Lydgate begins to respect and care for Dorothea deeply. Their friendship bond begins.",
+          "leads_to": "d07"
+        },
+        "no": {
+          "text": "No - he remains professionally distant",
+          "is_canonical": false,
+          "consequence": "AI generates path where their friendship never develops."
+        }
+      }
+    },
+    {
+      "id": "d07",
+      "chapter": 42,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Dorothea Brooke",
+      "location": "Lowick Manor",
+      "decision": "Will Dorothea remain unconscious of her growing attraction to Will Ladislaw?",
+      "context": "Will visits more frequently. Dorothea feels alive in his presence. Casaubon grows jealous and suspicious. ERROR #3: Dorothea hasn't admitted to herself what she feels. Even Casaubon sees it before she does.",
+      "themes": [
+        "Self-knowledge",
+        "Desire",
+        "Unconscious feeling"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - remain unconscious of her true feelings",
+          "is_canonical": true,
+          "consequence": "She enjoys Will's company as 'innocent friendship' while Casaubon seethes with suspicion.",
+          "leads_to": "d08"
+        },
+        "no": {
+          "text": "No - acknowledge the attraction",
+          "is_canonical": false,
+          "consequence": "AI generates path where conscious recognition changes her choices."
+        }
+      }
+    },
+    {
+      "id": "d08",
+      "chapter": 48,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Dorothea Brooke",
+      "location": "Lowick Manor (garden)",
+      "decision": "Will Dorothea go to the garden to consider Casaubon's request that she promise to complete his work after his death?",
+      "context": "Casaubon asks her to promise she'll carry out his wishes - complete the Key to All Mythologies. She hesitates, needs time to think. She WOULD have promised (ERROR #4 narrowly avoided).",
+      "themes": [
+        "Duty",
+        "Self-sacrifice",
+        "The promise not made"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - go to the garden to think",
+          "is_canonical": true,
+          "consequence": "She wrestles with duty vs. self-preservation. She finds Casaubon unconscious in the garden.",
+          "leads_to": "d09"
+        },
+        "no": {
+          "text": "No - promise immediately without hesitation",
+          "is_canonical": false,
+          "consequence": "AI generates path where she promises instantly and ruins her future."
+        }
+      }
+    },
+    {
+      "id": "d09",
+      "chapter": 48,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Tertius Lydgate",
+      "location": "Lowick Manor (bedroom)",
+      "decision": "Will Lydgate prevent Dorothea from seeing Casaubon to give her answer about the promise?",
+      "context": "Casaubon is dying in bed. Dorothea has decided to promise YES. Lydgate keeps her from entering the room. Is this deliberate? Does he know what promise she wants to make? He SAVES HER LIFE by this obstruction. CRUCIAL friendship moment.",
+      "themes": [
+        "Friendship",
+        "Salvation",
+        "Intervention",
+        "Dorothea-Lydgate bond deepens"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - keep her from the room until Casaubon dies",
+          "is_canonical": true,
+          "consequence": "Lydgate (deliberately?) prevents her from promising away her life. Casaubon dies before she can answer. She is saved. Their friendship deepens profoundly.",
+          "leads_to": "d10"
+        },
+        "no": {
+          "text": "No - let her enter to make the promise",
+          "is_canonical": false,
+          "consequence": "AI generates path where she promises and is trapped forever in Casaubon's dead wishes."
+        }
+      }
+    },
+    {
+      "id": "d10",
+      "chapter": 50,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Dorothea Brooke",
+      "location": "Freshitt Hall",
+      "decision": "Will the discovery of Casaubon's codicil (forbidding her from marrying Will or losing her inheritance) make Dorothea realize her own feelings?",
+      "context": "The codicil reveals Casaubon suspected her attraction to Will BEFORE she recognized it herself. His spite and smallness are exposed. But does this change how she feels about Will?",
+      "themes": [
+        "Control beyond death",
+        "Self-knowledge",
+        "Spite"
+      ],
+      "canonical_answer": "no",
+      "choices": {
+        "yes": {
+          "text": "Yes - the codicil clarifies her feelings",
+          "is_canonical": false,
+          "consequence": "AI generates path where she immediately recognizes her love for Will."
+        },
+        "no": {
+          "text": "No - remain conflicted and bound by propriety",
+          "is_canonical": true,
+          "consequence": "She's indignant at Casaubon's suspicion but the codicil creates an impossible situation. She still doesn't fully acknowledge her love.",
+          "leads_to": "d11"
+        }
+      }
+    },
+    {
+      "id": "d11",
+      "chapter": 54,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Dorothea Brooke",
+      "location": "Lowick Manor",
+      "decision": "Will Dorothea remain silent when Will Ladislaw confesses his love but says poverty prevents marriage?",
+      "context": "Will confesses he's always loved her but his poverty and the codicil make marriage impossible. Dorothea is torn between joy and duty. ERROR #5: She doesn't reveal her own feelings.",
+      "themes": [
+        "Love",
+        "Pride",
+        "Restraint",
+        "Opportunity lost"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - remain silent about her own feelings",
+          "is_canonical": true,
+          "consequence": "Propriety and the codicil silence her. The painful moment passes without resolution.",
+          "leads_to": "d12"
+        },
+        "no": {
+          "text": "No - confess her love in return",
+          "is_canonical": false,
+          "consequence": "AI generates path where early confession changes their trajectory."
+        }
+      }
+    },
+    {
+      "id": "d12",
+      "chapter": 76,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Tertius Lydgate",
+      "location": "Lowick Manor",
+      "decision": "Will Lydgate confide in Dorothea about his failing marriage and financial troubles?",
+      "context": "Lydgate, normally proud and closed, opens up to Dorothea about his marital difficulties. This is rare vulnerability. She's the ONLY ONE who understands him. Their friendship deepens. HOPE for Dorothea-Lydgate pairing intensifies.",
+      "themes": [
+        "Friendship",
+        "Vulnerability",
+        "Understanding",
+        "The pairing readers want"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - confide in Dorothea",
+          "is_canonical": true,
+          "consequence": "He trusts her with his pain. She respects and cares for him deeply. Readers wonder: why not marry?",
+          "leads_to": "d13"
+        },
+        "no": {
+          "text": "No - maintain proud silence",
+          "is_canonical": false,
+          "consequence": "AI generates path where he suffers alone without this friendship."
+        }
+      }
+    },
+    {
+      "id": "d13",
+      "chapter": 77,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Tertius Lydgate",
+      "location": "Middlemarch",
+      "decision": "After Casaubon's death and before leaving Middlemarch in disgrace, will Lydgate's deep admiration for Dorothea prompt him to pursue her love?",
+      "context": "Lydgate admires Dorothea profoundly. She's intelligent, idealistic, wealthy (could fund his research), believes in him. She's free now. He's trapped in a bad marriage. Readers WANT this pairing. But Eliot says: NO. Why? Because DESIRE is missing. He respects her but isn't attracted. She was never his type. Rosamond was.",
+      "themes": [
+        "The pairing that could save them both",
+        "Desire vs. Respect",
+        "Marriage needs both",
+        "HOPE dies"
+      ],
+      "canonical_answer": "no",
+      "choices": {
+        "yes": {
+          "text": "Yes - pursue Dorothea romantically",
+          "is_canonical": false,
+          "consequence": "AI generates path: They marry. She keeps inheritance, funds his research. They stay in Middlemarch, make it better. Intellectual partnership. But is it happy without desire?"
+        },
+        "no": {
+          "text": "No - remain friends only",
+          "is_canonical": true,
+          "consequence": "Lydgate values friendship but feels no romantic desire. Dorothea is not his type. Friendship + Respect - Desire = Not enough for marriage. This path closes.",
+          "leads_to": "d14"
+        }
+      }
+    },
+    {
+      "id": "d14",
+      "chapter": 80,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Dorothea Brooke",
+      "location": "Lowick Manor (garden)",
+      "decision": "After witnessing Will with Rosamond (appearing intimate), will Dorothea confront her jealousy and despair in the garden?",
+      "context": "Dorothea sees Will and Rosamond together, apparently intimate. She's devastated. Dark night of the soul. She faces her love and pain. This is her crisis moment.",
+      "themes": [
+        "Jealousy",
+        "Self-knowledge",
+        "Crisis",
+        "Dark night"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - spend the night wrestling with despair",
+          "is_canonical": true,
+          "consequence": "She faces her feelings fully for the first time. Pain forces self-knowledge. She emerges resolved.",
+          "leads_to": "d15"
+        },
+        "no": {
+          "text": "No - immediately dismiss Will from her thoughts",
+          "is_canonical": false,
+          "consequence": "AI generates path where she hardens her heart without self-examination."
+        }
+      }
+    },
+    {
+      "id": "d15",
+      "chapter": 81,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Dorothea Brooke",
+      "location": "Lydgate residence",
+      "decision": "Will Dorothea go to Rosamond to defend Lydgate's honor after the Bulstrode scandal?",
+      "context": "Lydgate is disgraced by association with Bulstrode. Dorothea believes in his integrity. She goes to Rosamond out of friendship to Lydgate - to say 'I believe him even if no one else does.' Also to warn R about the Will flirtation (though D may not fully recognize her own jealousy as motive).",
+      "themes": [
+        "Friendship",
+        "Loyalty",
+        "Female friendship begins",
+        "Generosity"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - go to Rosamond",
+          "is_canonical": true,
+          "consequence": "Dorothea defends Lydgate to Rosamond. She wants R to know she believes in L's integrity. This act of friendship saves Lydgate's marriage and self-respect.",
+          "leads_to": "d16"
+        },
+        "no": {
+          "text": "No - stay away, nursing her own wounds",
+          "is_canonical": false,
+          "consequence": "AI generates path where she abandons Lydgate to disgrace."
+        }
+      }
+    },
+    {
+      "id": "d16",
+      "chapter": 81,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Rosamond Lydgate",
+      "location": "Lydgate residence",
+      "decision": "Will Rosamond tell Dorothea the truth: that Will loves Dorothea, not herself?",
+      "context": "ROSAMOND'S GOOD MOMENT. In an act of selfless female friendship, Rosamond tells Dorothea the truth about Will's feelings. She shows no shame or anger, only respect and friendship. This generosity is crucial - Dorothea would NOT have allowed herself to fall for Will without this reassurance. FEMALE FRIENDSHIP TRIUMPHANT.",
+      "themes": [
+        "Female friendship",
+        "Generosity",
+        "Truth-telling",
+        "Rosamond's redemption moment",
+        "Respect"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - tell Dorothea the truth about Will's love",
+          "is_canonical": true,
+          "consequence": "Rosamond is selfless and generous. She gives Dorothea the truth she needs. True female friendship. This moment may also help R appreciate Lydgate more and stick with her marriage - she learns to respect him through D's high opinion.",
+          "leads_to": "d17"
+        },
+        "no": {
+          "text": "No - remain silent or lie",
+          "is_canonical": false,
+          "consequence": "AI generates path where Rosamond's selfishness prevents Dorothea's happiness."
+        }
+      }
+    },
+    {
+      "id": "d17",
+      "chapter": 83,
+      "storyline": "dorothea",
+      "importance": "major",
+      "character": "Dorothea Brooke",
+      "location": "Lowick Manor",
+      "decision": "Will Dorothea agree to see Will Ladislaw despite propriety and the painful situation?",
+      "context": "Miss Noble brings word that Will fears he's offended Dorothea. Now that Rosamond has clarified everything, this is the decisive moment. Will she follow her heart?",
+      "themes": [
+        "Choice",
+        "Love",
+        "Freedom",
+        "REDEMPTION"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - agree to see him",
+          "is_canonical": true,
+          "consequence": "She chooses love over wealth. They declare their feelings and marry. She loses Casaubon's fortune but gains purpose, desire, and partnership. REDEMPTION through choosing love.",
+          "leads_to": "finale-dorothea"
+        },
+        "no": {
+          "text": "No - refuse to see him",
+          "is_canonical": false,
+          "consequence": "AI generates path where duty wins over love."
+        }
+      }
+    }
+  ]
+}

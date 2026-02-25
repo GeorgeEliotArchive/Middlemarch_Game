@@ -1,0 +1,445 @@
+{
+  "title": "Lydgate's Decline",
+  "description": "An ambitious young doctor trapped by desire, pride, and circumstance. Watch his dreams crumble through a cascade of errors, saved only partially by Dorothea's friendship.",
+  "theme": "Tragic fall",
+  "decisions": [
+    {
+      "id": "l01",
+      "chapter": 15,
+      "storyline": "lydgate",
+      "importance": "major",
+      "character": "Tertius Lydgate",
+      "location": "Middlemarch",
+      "decision": "Will Lydgate pursue his ambitious medical reforms in provincial Middlemarch?",
+      "context": "Lydgate arrives with grand ambitions: advance medical science, reform hospitals, make discoveries. He's brilliant but an outsider. The town is conservative. His past involves a tragic romance with an actress. ERROR #1: Too aggressive with reforms.",
+      "themes": [
+        "Ambition",
+        "Reform vs. tradition",
+        "Outsider status",
+        "HOPE"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - pursue reforms vigorously",
+          "is_canonical": true,
+          "consequence": "He pushes his reforms confidently, making enemies among local medical men. His ambition blinds him to political realities.",
+          "leads_to": "l02"
+        },
+        "no": {
+          "text": "No - compromise with local doctors",
+          "is_canonical": false,
+          "consequence": "AI generates path where early compromise might preserve his position."
+        }
+      }
+    },
+    {
+      "id": "l02",
+      "chapter": 27,
+      "storyline": "lydgate",
+      "importance": "major",
+      "character": "Tertius Lydgate",
+      "location": "Vincy residence",
+      "decision": "When Rosamond cries and manipulates his sympathy, will Lydgate comfort her?",
+      "context": "Lydgate has NO intention of proposing. Rosamond orchestrates a moment alone, begins crying. His chivalry and desire are aroused. ERROR #2: His actions betray his judgment. Eliot's gorgeous rendering of self-entrapment.",
+      "themes": [
+        "Manipulation",
+        "Desire vs. judgment",
+        "Self-deception",
+        "The trap"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - comfort her",
+          "is_canonical": true,
+          "consequence": "He comforts her and finds himself suddenly, impulsively engaged. He leaves an engaged man, having betrayed his own intentions. The trap closes.",
+          "leads_to": "l03"
+        },
+        "no": {
+          "text": "No - resist and leave quickly",
+          "is_canonical": false,
+          "consequence": "AI generates path where he escapes the engagement trap."
+        }
+      }
+    },
+    {
+      "id": "l03",
+      "chapter": 31,
+      "storyline": "lydgate",
+      "importance": "minor",
+      "character": "Tertius Lydgate",
+      "location": "Middlemarch",
+      "decision": "Will Lydgate proceed with marrying Rosamond despite growing awareness of her expensive tastes?",
+      "context": "Engaged now, Lydgate realizes Rosamond expects a wealthy lifestyle. He has medical debts and research ambitions. But honor binds him. ERROR #3: Proceeding despite warning signs.",
+      "themes": [
+        "Honor",
+        "Financial imprudence",
+        "Commitment"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - proceed with the marriage",
+          "is_canonical": true,
+          "consequence": "Honor demands it. He marries her, hoping to manage somehow. Debt begins.",
+          "leads_to": "l04"
+        },
+        "no": {
+          "text": "No - postpone or break the engagement",
+          "is_canonical": false,
+          "consequence": "AI generates path where he breaks free before marriage."
+        }
+      }
+    },
+    {
+      "id": "l04",
+      "chapter": 36,
+      "storyline": "lydgate",
+      "importance": "minor",
+      "character": "Tertius Lydgate",
+      "location": "Middlemarch",
+      "decision": "Will Lydgate accept deeper patronage from the morally questionable Bulstrode?",
+      "context": "Other doctors resent Lydgate's reforms. Bulstrode offers strong support for the hospital. But there are whispers about Bulstrode's past. ERROR #4: Accepting tainted patronage.",
+      "themes": [
+        "Patronage",
+        "Moral compromise",
+        "Ambition"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - accept Bulstrode's patronage",
+          "is_canonical": true,
+          "consequence": "His hospital work depends on Bulstrode. He's now tied to a questionable benefactor.",
+          "leads_to": "l05"
+        },
+        "no": {
+          "text": "No - refuse and seek other support",
+          "is_canonical": false,
+          "consequence": "AI generates path where he maintains independence."
+        }
+      }
+    },
+    {
+      "id": "l05",
+      "chapter": 45,
+      "storyline": "lydgate",
+      "importance": "minor",
+      "character": "Tertius Lydgate",
+      "location": "Middlemarch",
+      "decision": "Will Lydgate continue buying expensive furnishings to please Rosamond despite his debts?",
+      "context": "Rosamond has expensive tastes. Lydgate is going into debt but doesn't want to disappoint her. ERROR #5: Hiding financial reality.",
+      "themes": [
+        "Debt",
+        "Pleasing vs. honesty",
+        "Pride"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - continue the expenses",
+          "is_canonical": true,
+          "consequence": "Debt grows. He hides the truth from Rosamond, making everything worse.",
+          "leads_to": "l06"
+        },
+        "no": {
+          "text": "No - be honest about their finances",
+          "is_canonical": false,
+          "consequence": "AI generates path where early honesty might save them."
+        }
+      }
+    },
+    {
+      "id": "l06",
+      "chapter": 58,
+      "storyline": "lydgate",
+      "importance": "major",
+      "character": "Tertius Lydgate",
+      "location": "Lydgate residence",
+      "decision": "Will Lydgate finally tell Rosamond about their desperate financial situation?",
+      "context": "They're deeply in debt. Rosamond has been buying expensive furnishings, unaware. ERROR #6: He waited too long to tell her. Now it's a crisis.",
+      "themes": [
+        "Honesty",
+        "Crisis",
+        "Communication failure"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - finally reveal the debt",
+          "is_canonical": true,
+          "consequence": "Rosamond is shocked and angry. She had no idea. Communication breakdown complete.",
+          "leads_to": "l07"
+        },
+        "no": {
+          "text": "No - continue hiding the truth",
+          "is_canonical": false,
+          "consequence": "AI generates path where he never tells her until forced by creditors."
+        }
+      }
+    },
+    {
+      "id": "l07",
+      "chapter": 58,
+      "storyline": "lydgate",
+      "importance": "major",
+      "character": "Tertius Lydgate",
+      "location": "Lydgate residence",
+      "decision": "When Rosamond suggests leaving Middlemarch to escape debts, will Lydgate refuse?",
+      "context": "Rosamond wants to flee. Lydgate insists on staying to face obligations. ERROR #7: But this honor traps him further in Middlemarch.",
+      "themes": [
+        "Honor",
+        "Escape vs. responsibility"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - insist on staying and facing obligations",
+          "is_canonical": true,
+          "consequence": "He refuses to run away. This honor is admirable but keeps him in the trap.",
+          "leads_to": "l08"
+        },
+        "no": {
+          "text": "No - agree to leave",
+          "is_canonical": false,
+          "consequence": "AI generates path where they start fresh elsewhere."
+        }
+      }
+    },
+    {
+      "id": "l08",
+      "chapter": 64,
+      "storyline": "lydgate",
+      "importance": "major",
+      "character": "Tertius Lydgate",
+      "location": "Lydgate residence",
+      "decision": "Will Lydgate allow Rosamond to ask her wealthy uncle Sir Godwin for financial help?",
+      "context": "Rosamond wants to write to her rich uncle for money. Lydgate's pride forbids it. ERROR #8: Won't let her ask for help when it might save them.",
+      "themes": [
+        "Pride",
+        "Help refused",
+        "Missed opportunity"
+      ],
+      "canonical_answer": "no",
+      "choices": {
+        "yes": {
+          "text": "Yes - allow her to ask her uncle",
+          "is_canonical": false,
+          "consequence": "AI generates path where uncle's help might save them from Bulstrode's tainted money."
+        },
+        "no": {
+          "text": "No - forbid her to ask",
+          "is_canonical": true,
+          "consequence": "His pride refuses charity. Rosamond does it anyway behind his back - and fails. Humiliation complete.",
+          "leads_to": "l09"
+        }
+      }
+    },
+    {
+      "id": "l09",
+      "chapter": 58,
+      "storyline": "lydgate",
+      "importance": "major",
+      "character": "Rosamond Lydgate",
+      "location": "Middlemarch countryside",
+      "decision": "Will Rosamond go horseback riding despite Lydgate forbidding it while pregnant?",
+      "context": "Lydgate forbids riding while she's pregnant. Rosamond is miserable, feeling trapped, wants to spite him. DARK DECISION: She rides. Loses the baby. Intentional abortion? Eliot leaves it ambiguous.",
+      "themes": [
+        "Rebellion",
+        "Loss",
+        "Spite",
+        "Ambiguous intent"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - ride anyway",
+          "is_canonical": true,
+          "consequence": "She rides and miscarries. Was it intentional? We don't know. The baby is lost. Their marriage darkens further.",
+          "leads_to": "l10"
+        },
+        "no": {
+          "text": "No - obey and keep the pregnancy",
+          "is_canonical": false,
+          "consequence": "AI generates path where the baby survives and might change their marriage."
+        }
+      }
+    },
+    {
+      "id": "l10",
+      "chapter": 63,
+      "storyline": "lydgate",
+      "importance": "minor",
+      "character": "Tertius Lydgate",
+      "location": "Christmas dinner",
+      "decision": "Will Lydgate accept Farebrother's offer of help with his troubles?",
+      "context": "Farebrother (morally good friend) perceives Lydgate's distress and offers help. Lydgate's pride refuses. ERROR #9: Rejecting true friendship. Moving away from Farebrother is always a mistake.",
+      "themes": [
+        "Pride",
+        "Friendship rejected",
+        "Isolation"
+      ],
+      "canonical_answer": "no",
+      "choices": {
+        "yes": {
+          "text": "Yes - accept Farebrother's help",
+          "is_canonical": false,
+          "consequence": "AI generates path where friendship saves him."
+        },
+        "no": {
+          "text": "No - reject help proudly",
+          "is_canonical": true,
+          "consequence": "Pride prevents him from accepting friendship. His isolation deepens. Farebrother is the best character - rejecting him is a mistake.",
+          "leads_to": "l11"
+        }
+      }
+    },
+    {
+      "id": "l11",
+      "chapter": 69,
+      "storyline": "lydgate",
+      "importance": "minor",
+      "character": "Rosamond Lydgate",
+      "location": "Lydgate residence",
+      "decision": "Will Rosamond temporarily leave Lydgate to stay with her parents due to their strained marriage?",
+      "context": "Their marriage is miserable. Rosamond leaves for her parents' house. Separation begins.",
+      "themes": [
+        "Marriage breakdown",
+        "Separation"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - leave for her parents",
+          "is_canonical": true,
+          "consequence": "She leaves. They're living separately now. Marriage nearly dissolved.",
+          "leads_to": "l12"
+        },
+        "no": {
+          "text": "No - stay and work on the marriage",
+          "is_canonical": false,
+          "consequence": "AI generates path where they try to reconcile earlier."
+        }
+      }
+    },
+    {
+      "id": "l12",
+      "chapter": 70,
+      "storyline": "lydgate",
+      "importance": "major",
+      "character": "Tertius Lydgate",
+      "location": "Stone Court",
+      "decision": "Will Lydgate accept Bulstrode's loan of £1000?",
+      "context": "Lydgate is desperate. Bulstrode offers £1000 RIGHT AFTER Raffles dies upstairs (with questionable care from Bulstrode). ERROR #10: The fatal compromise. Accepting tainted money at the worst moment.",
+      "themes": [
+        "Desperation",
+        "Moral compromise",
+        "Complicity",
+        "The fatal error"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - accept the loan",
+          "is_canonical": true,
+          "consequence": "He accepts out of desperation. The timing makes it look like payment for silence about Raffles' death. His reputation will be destroyed.",
+          "leads_to": "l13"
+        },
+        "no": {
+          "text": "No - refuse the loan",
+          "is_canonical": false,
+          "consequence": "AI generates path where he preserves integrity despite hardship."
+        }
+      }
+    },
+    {
+      "id": "l13",
+      "chapter": 71,
+      "storyline": "lydgate",
+      "importance": "major",
+      "character": "Tertius Lydgate",
+      "location": "Middlemarch",
+      "decision": "When the Bulstrode-Raffles scandal breaks, will Lydgate stay to defend himself?",
+      "context": "Raffles' death and Bulstrode's crimes are exposed. Lydgate, who took the loan and attended Raffles, is suspected of complicity. Scandal and disgrace. Rosamond wants to flee immediately.",
+      "themes": [
+        "Scandal",
+        "Reputation destroyed",
+        "Honor vs. pragmatism"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - stay and try to defend his integrity",
+          "is_canonical": true,
+          "consequence": "He tries to defend himself but the scandal sticks. His medical reputation in Middlemarch is ruined.",
+          "leads_to": "l14"
+        },
+        "no": {
+          "text": "No - leave immediately",
+          "is_canonical": false,
+          "consequence": "AI generates path where they flee before the scandal fully breaks."
+        }
+      }
+    },
+    {
+      "id": "l14",
+      "chapter": 75,
+      "storyline": "lydgate",
+      "importance": "major",
+      "character": "Rosamond Lydgate",
+      "location": "Lydgate residence",
+      "decision": "Will Rosamond continue encouraging Will Ladislaw's visits and flirtations?",
+      "context": "Rosamond is unhappy in her marriage. Will Ladislaw pays attention to her. She encourages his visits and flirts. This is disrespectful to Lydgate and will hurt Dorothea (who witnesses it).",
+      "themes": [
+        "Flirtation",
+        "Disrespect",
+        "Unhappiness"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - continue the flirtation",
+          "is_canonical": true,
+          "consequence": "She flirts with Will, disrespecting Lydgate. Dorothea sees this and is devastated. The flirtation poisons multiple relationships.",
+          "leads_to": "l15"
+        },
+        "no": {
+          "text": "No - maintain proper boundaries",
+          "is_canonical": false,
+          "consequence": "AI generates path where she focuses on her marriage instead."
+        }
+      }
+    },
+    {
+      "id": "l15",
+      "chapter": 81,
+      "storyline": "lydgate",
+      "importance": "major",
+      "character": "Rosamond Lydgate",
+      "location": "Lydgate residence",
+      "decision": "After Dorothea comes to defend Lydgate, will Rosamond respect her enough to stick with her marriage?",
+      "context": "Dorothea's visit and high opinion of Lydgate shows Rosamond what true respect looks like. Dorothea believes in Lydgate's integrity. This might help R appreciate her husband more. Also, social status matters - D is gentlefolk.",
+      "themes": [
+        "Respect",
+        "Marriage preserved",
+        "Social status",
+        "Learning"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - learn to respect Lydgate more",
+          "is_canonical": true,
+          "consequence": "Rosamond learns from Dorothea's respect for Lydgate. She sticks with the marriage (though never truly happy). They stay together.",
+          "leads_to": "finale-lydgate"
+        },
+        "no": {
+          "text": "No - continue resenting the marriage",
+          "is_canonical": false,
+          "consequence": "AI generates path where the marriage dissolves completely."
+        }
+      }
+    }
+  ]
+}

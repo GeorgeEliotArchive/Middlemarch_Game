@@ -1,0 +1,359 @@
+{
+  "title": "Fred's Redemption",
+  "description": "From idle heir expecting Featherstone's fortune to honest worker learning from Caleb Garth. Earning Mary's love through character growth and finding his true vocation.",
+  "theme": "Earned happiness",
+  "decisions": [
+    {
+      "id": "f01",
+      "chapter": 12,
+      "storyline": "fred",
+      "importance": "major",
+      "character": "Fred Vincy",
+      "location": "Stone Court",
+      "decision": "Will Fred continue visiting Uncle Featherstone and cultivating expectations of inheriting?",
+      "context": "Fred visits wealthy, dying Uncle Featherstone regularly. Featherstone torments relatives with will hints. Fred counts on this inheritance to solve his problems. ERROR #1: Expecting unearned money. Mary Garth sees this as moral weakness.",
+      "themes": [
+        "Expectation",
+        "Idleness",
+        "False hopes"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - continue expecting the inheritance",
+          "is_canonical": true,
+          "consequence": "He keeps visiting, expecting to inherit. This false hope prevents him from finding honest work.",
+          "leads_to": "f02"
+        },
+        "no": {
+          "text": "No - reject expectations and find work",
+          "is_canonical": false,
+          "consequence": "AI generates path where he rejects false hopes early and seeks honest employment."
+        }
+      }
+    },
+    {
+      "id": "f02",
+      "chapter": 14,
+      "storyline": "fred",
+      "importance": "minor",
+      "character": "Fred Vincy",
+      "location": "Stone Court",
+      "decision": "Will Fred confess his love to Mary Garth?",
+      "context": "Fred loves Mary. She's practical, smart, and won't accept him unless he proves himself worthy. He confesses his feelings.",
+      "themes": [
+        "Love",
+        "Worthiness"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - confess his love",
+          "is_canonical": true,
+          "consequence": "He declares his love. Mary makes clear she won't marry him until he proves worthy through honest work.",
+          "leads_to": "f03"
+        },
+        "no": {
+          "text": "No - keep his feelings hidden",
+          "is_canonical": false,
+          "consequence": "AI generates path where he doesn't declare himself."
+        }
+      }
+    },
+    {
+      "id": "f03",
+      "chapter": 23,
+      "storyline": "fred",
+      "importance": "major",
+      "character": "Fred Vincy",
+      "location": "Middlemarch",
+      "decision": "Will Fred buy a horse expecting to profit from reselling it?",
+      "context": "Fred, counting on Featherstone inheritance, buys a horse from dealer Bambridge. He expects to profit. ERROR #2: Gambling on quick money.",
+      "themes": [
+        "Gambling",
+        "False expectations",
+        "Foolishness"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - buy the horse",
+          "is_canonical": true,
+          "consequence": "He buys the horse. It goes lame. He loses money and faces ruin. His foolishness has real consequences.",
+          "leads_to": "f04"
+        },
+        "no": {
+          "text": "No - resist the gamble",
+          "is_canonical": false,
+          "consequence": "AI generates path where he avoids this particular mistake."
+        }
+      }
+    },
+    {
+      "id": "f04",
+      "chapter": 23,
+      "storyline": "fred",
+      "importance": "major",
+      "character": "Fred Vincy",
+      "location": "Middlemarch",
+      "decision": "Will Fred ask kind Caleb Garth to co-sign his debt to Bambridge?",
+      "context": "Horse went lame. Fred owes money. He needs someone to co-sign. He thinks of Caleb Garth - Mary's father, kind, honest, lives frugally to educate his sons. ERROR #3: Taking advantage of Caleb's kindness.",
+      "themes": [
+        "Taking advantage",
+        "Debt",
+        "Character test"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - ask Caleb to co-sign",
+          "is_canonical": true,
+          "consequence": "Caleb agrees despite limited means. Fred has taken advantage of a good man's kindness. This will have devastating consequences.",
+          "leads_to": "f05"
+        },
+        "no": {
+          "text": "No - ask his own family or face consequences alone",
+          "is_canonical": false,
+          "consequence": "AI generates path where he doesn't burden the Garths."
+        }
+      }
+    },
+    {
+      "id": "f05",
+      "chapter": 24,
+      "storyline": "fred",
+      "importance": "major",
+      "character": "Fred Vincy",
+      "location": "Garth house",
+      "decision": "Will Fred confess to Mrs. Garth that he cannot repay the debt Caleb co-signed?",
+      "context": "Fred can't repay. Caleb's signature means Garths lose £92 - their savings for son Alfred's apprenticeship. Mrs. Garth is the practical partner who scrimps and saves. 1830s England - girls not sent to school, though Mary is smartest. Fred must face her. ERROR #4: The consequence of his foolishness.",
+      "themes": [
+        "Shame",
+        "Consequences",
+        "Responsibility",
+        "Class and education"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - confess honestly",
+          "is_canonical": true,
+          "consequence": "Mrs. Garth is devastated. Alfred's education is lost because of Fred's foolishness. This is Fred's turning point - facing real harm he's caused.",
+          "leads_to": "f06"
+        },
+        "no": {
+          "text": "No - avoid the Garths and try to raise money elsewhere",
+          "is_canonical": false,
+          "consequence": "AI generates path where he doesn't take responsibility."
+        }
+      }
+    },
+    {
+      "id": "f06",
+      "chapter": 25,
+      "storyline": "fred",
+      "importance": "major",
+      "character": "Fred Vincy",
+      "location": "Stone Court",
+      "decision": "Will Fred accept Mary's anger without making excuses?",
+      "context": "Mary confronts Fred about the debt. Her family suffers because of his irresponsibility. She won't accept him unless he proves worthy. Will he accept this shame or make excuses?",
+      "themes": [
+        "Accountability",
+        "Love",
+        "Character growth"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - accept her anger and his shame",
+          "is_canonical": true,
+          "consequence": "He accepts responsibility without excuses. This is the beginning of his character growth. Mary sees this.",
+          "leads_to": "f07"
+        },
+        "no": {
+          "text": "No - make excuses about bad luck",
+          "is_canonical": false,
+          "consequence": "AI generates path where he fails this character test."
+        }
+      }
+    },
+    {
+      "id": "f07",
+      "chapter": 33,
+      "storyline": "fred",
+      "importance": "major",
+      "character": "Fred Vincy",
+      "location": "Stone Court",
+      "decision": "When Featherstone's will reveals Fred is disinherited (Joshua Rigg gets everything), will Fred accept this without contesting?",
+      "context": "Featherstone dies. The will is read. Fred gets NOTHING. Joshua Rigg (illegitimate son) inherits everything. Fred's expectations are crushed. Will he accept this or fight?",
+      "themes": [
+        "Expectations destroyed",
+        "Acceptance",
+        "Character"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - accept the disinheritance",
+          "is_canonical": true,
+          "consequence": "He accepts it with disappointment but no protest. His false hopes are finally destroyed. This forces him to grow.",
+          "leads_to": "f08"
+        },
+        "no": {
+          "text": "No - contest the will",
+          "is_canonical": false,
+          "consequence": "AI generates path where he fights the will and delays his growth."
+        }
+      }
+    },
+    {
+      "id": "f08",
+      "chapter": 40,
+      "storyline": "fred",
+      "importance": "major",
+      "character": "Fred Vincy",
+      "location": "Garth house",
+      "decision": "Will Fred accept Caleb Garth's offer to learn land management?",
+      "context": "Despite Fred's debt betrayal, Caleb sees potential. He offers to teach Fred land management - honest, practical work. This means giving up gentleman's life. Mary has quit teaching to help her mother. REDEMPTION begins.",
+      "themes": [
+        "Redemption",
+        "Honest work",
+        "Vocation",
+        "Class expectations"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - accept gratefully and learn from Caleb",
+          "is_canonical": true,
+          "consequence": "He accepts with gratitude. Begins learning honest work from Caleb. This is his path to redemption and Mary's heart.",
+          "leads_to": "f09"
+        },
+        "no": {
+          "text": "No - decline as beneath his station",
+          "is_canonical": false,
+          "consequence": "AI generates path where pride prevents his redemption."
+        }
+      }
+    },
+    {
+      "id": "f09",
+      "chapter": 40,
+      "storyline": "fred",
+      "importance": "minor",
+      "character": "Mary Garth",
+      "location": "Garth house",
+      "decision": "Will Mary give up her teaching job to help her mother at home?",
+      "context": "Caleb gets job offers managing estates. Mary decides to quit teaching and help her mother. She's practical and dutiful. This shows her character.",
+      "themes": [
+        "Duty",
+        "Family",
+        "Women's roles",
+        "Practicality"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - give up teaching to help mother",
+          "is_canonical": true,
+          "consequence": "She quits teaching to help at home. Dutiful and practical. She and Fred are both learning their vocations.",
+          "leads_to": "f10"
+        },
+        "no": {
+          "text": "No - continue teaching",
+          "is_canonical": false,
+          "consequence": "AI generates path where she prioritizes her work over family."
+        }
+      }
+    },
+    {
+      "id": "f10",
+      "chapter": 52,
+      "storyline": "fred",
+      "importance": "major",
+      "character": "Fred Vincy",
+      "location": "Lowick parsonage",
+      "decision": "Will Fred reject the idea of becoming a clergyman?",
+      "context": "Fred's family expects him to be a clergyman (respectable for gentleman's son). But Fred has been learning from Caleb and is good at practical work. Farebrother asks Mary's opinion. Mary says she'd HATE to see Fred as clergyman - he'd be terrible at it. Fred must choose. CRUCIAL VOCATION DECISION.",
+      "themes": [
+        "Vocation",
+        "Self-knowledge",
+        "Social expectations",
+        "Honesty"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - reject the clergy",
+          "is_canonical": true,
+          "consequence": "He chooses honest work over social expectations. He's not book-smart (Mary becomes the writer!) but he has sense and a good heart. He'd be terrible as clergyman. Right choice.",
+          "leads_to": "f11"
+        },
+        "no": {
+          "text": "No - become a clergyman to satisfy family",
+          "is_canonical": false,
+          "consequence": "AI generates path where he chooses wrong vocation for wrong reasons."
+        }
+      }
+    },
+    {
+      "id": "f11",
+      "chapter": 56,
+      "storyline": "fred",
+      "importance": "minor",
+      "character": "Fred Vincy",
+      "location": "Middlemarch",
+      "decision": "Will Fred continue working diligently with Caleb Garth to prove himself?",
+      "context": "Fred works hard, learning the land management business. He's proving his character through steady work. Redemption continues.",
+      "themes": [
+        "Work ethic",
+        "Proving worthiness",
+        "Character growth"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - continue working diligently",
+          "is_canonical": true,
+          "consequence": "He works hard and well. Caleb trusts him. Fred is becoming the man Mary deserves.",
+          "leads_to": "f12"
+        },
+        "no": {
+          "text": "No - slack off or return to old habits",
+          "is_canonical": false,
+          "consequence": "AI generates path where he fails to maintain his growth."
+        }
+      }
+    },
+    {
+      "id": "f12",
+      "chapter": 86,
+      "storyline": "fred",
+      "importance": "major",
+      "character": "Fred Vincy",
+      "location": "Middlemarch",
+      "decision": "Will Fred propose to Mary Garth, confident he's earned the right?",
+      "context": "Fred has proven himself through years of honest work with Caleb. He's no longer the idle fool who hurt the Garths. Mary has seen his genuine transformation. He's found his vocation. REDEMPTION COMPLETE. Will he ask?",
+      "themes": [
+        "Love",
+        "Worthiness earned",
+        "Character growth",
+        "Happy ending"
+      ],
+      "canonical_answer": "yes",
+      "choices": {
+        "yes": {
+          "text": "Yes - propose confidently",
+          "is_canonical": true,
+          "consequence": "He proposes. Mary accepts. They marry and have a happy life. Fred becomes successful land agent. Mary becomes a writer. EARNED HAPPY ENDING. Redemption through work and growth.",
+          "leads_to": "finale-fred"
+        },
+        "no": {
+          "text": "No - doubt his worthiness and wait",
+          "is_canonical": false,
+          "consequence": "AI generates path where self-doubt prevents his happiness."
+        }
+      }
+    }
+  ]
+}

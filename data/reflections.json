@@ -1,0 +1,105 @@
+{
+  "marriage_formula": {
+    "title": "Eliot's Marriage Equation: What Makes Love Last?",
+    "content": "George Eliot shows us that successful marriage requires THREE elements: Desire + Respect + Friendship. Missing any one leads to unhappiness.",
+    "examples": [
+      {
+        "pairing": "Dorothea + Casaubon",
+        "formula": "Respect (initially) - Desire - Friendship = MISERY",
+        "explanation": "Dorothea respected his scholarship but felt no desire. They had no real friendship. Result: trapped, unhappy, her spirit crushed."
+      },
+      {
+        "pairing": "Lydgate + Rosamond",
+        "formula": "Desire + Initial attraction - Respect - Friendship = RUIN",
+        "explanation": "Lydgate desired Rosamond's beauty. But they don't respect each other's values or form true friendship. Result: debt, scandal, broken dreams."
+      },
+      {
+        "pairing": "Dorothea + Lydgate (The Pairing Readers Want)",
+        "formula": "Respect + Friendship - Desire = NOT ENOUGH",
+        "explanation": "They have profound mutual respect and deep friendship. They understand each other. She could fund his research. But the sexual desire is missing - she was never his type. Result: they remain friends, marry others."
+      },
+      {
+        "pairing": "Dorothea + Will",
+        "formula": "Desire + Growing Respect + Friendship = HAPPINESS",
+        "explanation": "Will thrills Dorothea in a way Casaubon never did. They develop respect and friendship. She chooses love over money. Result: happy marriage, purpose, children."
+      },
+      {
+        "pairing": "Fred + Mary",
+        "formula": "Desire + Earned Respect + Friendship = HAPPINESS",
+        "explanation": "Fred loves Mary. She won't accept him until he earns her respect through honest work. Once he does, they have all three elements. Result: happy, productive life together."
+      }
+    ]
+  },
+  "friendship_theme": {
+    "title": "True Friendship in Middlemarch",
+    "content": "Eliot shows us what real friendship looks like through several key characters. True friends act selflessly, speak truth, and help even when it's hard.",
+    "examples": [
+      {
+        "character": "Camden Farebrother",
+        "acts": "The morally best character. Offers help to Lydgate even when rejected. Helps Fred find his vocation. Any move away from Farebrother is a mistake."
+      },
+      {
+        "character": "Caleb Garth",
+        "acts": "Co-signs Fred's debt despite being poor. Later offers to teach Fred honest work despite the betrayal. True forgiveness and mentorship."
+      },
+      {
+        "character": "Dorothea",
+        "acts": "Goes to Rosamond to defend Lydgate's honor when everyone else condemns him. 'I believe in him even if no one else does.'"
+      },
+      {
+        "character": "Lydgate",
+        "acts": "Prevents Dorothea from promising away her life to Casaubon. Opens up about his marital troubles only to her. Friendship without romance."
+      },
+      {
+        "character": "Rosamond (her good moment)",
+        "acts": "Tells Dorothea the truth about Will's love. Shows selfless female friendship. This moment redeems her partially and helps her respect Lydgate more."
+      },
+      {
+        "character": "Sir James Chettam",
+        "acts": "Rejected by Dorothea but remains a loyal family friend. Marries Celia (good match). Continues to help and protect Dorothea throughout."
+      }
+    ]
+  },
+  "cascade_of_errors": {
+    "title": "The Psychology of Mistakes: How Good People Ruin Their Lives",
+    "content": "Eliot shows us 'erring human beings' - good people who make cascading mistakes. Each error leads to the next. This is realistic psychology.",
+    "dorothea_path": {
+      "errors": [
+        "ERROR #1: Marries Casaubon (idealism blinds her)",
+        "ERROR #2: Suppresses Rome disillusionment (duty over truth)",
+        "ERROR #3: Doesn't recognize her feelings for Will (self-deception)",
+        "ERROR #4: Almost promises to finish Casaubon's work (saved by Lydgate)",
+        "ERROR #5: Doesn't reveal feelings when Will confesses (propriety)",
+        "REDEMPTION: Chooses Will and love over money/respectability"
+      ],
+      "pattern": "Dorothea's errors come from idealism and self-deception. She learns through pain. Redeemed by finally choosing authentic love."
+    },
+    "lydgate_path": {
+      "errors": [
+        "ERROR #1: Too aggressive with reforms (makes enemies)",
+        "ERROR #2: Comforts crying Rosamond (trapped in engagement)",
+        "ERROR #3: Marries despite financial warnings",
+        "ERROR #4: Accepts Bulstrode's patronage",
+        "ERROR #5: Doesn't tell Rosamond about debts (hides truth too long)",
+        "ERROR #6: Won't let her ask uncle for help (pride)",
+        "ERROR #7: Stays in Middlemarch to face obligations (honor traps him)",
+        "ERROR #8: Rejects Farebrother's help (isolation)",
+        "ERROR #9: Accepts Bulstrode's loan at worst moment (fatal)",
+        "RUIN: Leaves Middlemarch, treats gout, abandons research, dies young"
+      ],
+      "pattern": "Lydgate's errors come from pride, desire, and refusing help. His fall is tragic - talent wasted. Partially saved by Dorothea's friendship."
+    },
+    "fred_path": {
+      "errors": [
+        "ERROR #1: Expects Featherstone inheritance (idleness)",
+        "ERROR #2: Gambles on horse (loses money)",
+        "ERROR #3: Asks Caleb to co-sign (takes advantage of kindness)",
+        "ERROR #4: Can't repay (Garths lose Alfred's education money)",
+        "TURNING POINT: Accepts shame without excuses",
+        "GROWTH: Learns from Caleb, rejects clergy, finds vocation",
+        "REDEMPTION: Earns Mary, happy marriage, successful career"
+      ],
+      "pattern": "Fred's errors come from idleness and false expectations. He learns through causing real harm to people he loves. Redeemed by honest work and accepting guidance."
+    }
+  }
+}

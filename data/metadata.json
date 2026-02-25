@@ -1,0 +1,14 @@
+{
+  "title": "Middlemarch: The Paths Not Taken",
+  "version": "2.0",
+  "total_decisions": 63,
+  "storylines": 3,
+  "themes": [
+    "The necessity of both desire and respect in marriage",
+    "The value of true friendship (Farebrother, Caleb, Dorothea, Lydgate, Sir James)",
+    "Cascading errors and their consequences",
+    "Redemption through honest work and self-knowledge",
+    "Female friendship and generosity (Dorothea and Rosamond's crucial moment)"
+  ],
+  "educational_notes": "In Exploration Mode, students can reflect on why certain pairings fail or succeed based on Eliot's formula: Desire + Respect + Friendship = Happy Marriage. Missing any element leads to unhappiness."
+}
