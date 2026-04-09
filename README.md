@@ -4,12 +4,13 @@
 **Created by:** Dr. Beverley Park Rilett & Claude (Anthropic)  
 **For:** George Eliot Archive, Auburn University  
 **License:** CC BY-NC-SA 4.0
-
 ---
 
 ## About This Game
 
-This interactive web game allows students and readers to explore the cascading decisions that shaped the lives of three main characters in George Eliot's *Middlemarch*:
+NOTE: This prototype game is an early experiment and not ready for public use. I'm sharing it in this messy, incomplete form as a learning tool for students. We are busy reworking everything from the decision-tree format, to the wording of the questions, to the expanded list of characters, including Rosamond, Bulstrode, Farebrother, Celia, and Will. We'll work in Raffles, Featherstone, and others who act as Chance-type threats to the main characters' paths. 
+
+This interactive web game, when complete, will allow students and readers to explore the cascading decisions that shaped the lives of the main characters in George Eliot's *Middlemarch*. We've started with:
 
 1. **Dorothea Brooke** - From idealistic youth through disastrous marriage to redemption through love
 2. **Tertius Lydgate** - An ambitious doctor's tragic fall through pride and circumstance  
